@@ -20,10 +20,11 @@ Proyecto es un API simulando un intercambio de Divisas, usando swagger para docu
 - Docker Compose (opcional, si usas servicios adicionales como bases de datos)
 - Python 3.11 (opcional, si ejecutas localmente)
 
+
+
 ## Instalación y Configuración
 
 ### Clonar el repositorio
-https://github.com/Uriielmr/currency-exchange-service.git
 
 ```bash
 git clone https://github.com/Uriielmr/currency-exchange-service.git
@@ -40,3 +41,11 @@ docker build -t service .
 ```bash
 docker run -p 8000:8000 service .
 ```
+
+## Tecnologias usadas
+
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="200" height="50" style="margin: 30px 0px 0px 40px;">
+<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="110" height="50" style="margin: 30px 0px 0px 40px;">
+<img src="https://www.sqlite.org/images/sqlite370_banner.svg" width="200" height="50" style="margin: 30px 0px 0px 40px;">
+<img src="https://www.uvicorn.org/uvicorn.png" height="80" style="margin: 30px 0px 0px 40px;">
+
