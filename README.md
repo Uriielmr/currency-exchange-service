@@ -34,6 +34,7 @@ git clone https://github.com/Uriielmr/currency-exchange-service.git
 
 ```bash
 docker build -t exchange-service .
+docker build -t exchange-service .
 ```
 
 ### Construir la imagen Docker:
