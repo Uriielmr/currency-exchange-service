@@ -39,7 +39,7 @@ docker build -t exchange-service .
 ### Construir la imagen Docker:
 
 ```bash
-docker run -p 8000:8000 exchange-service .
+docker run -p 8000:8000 exchange-service
 ```
 
 ## Tecnologias usadas
