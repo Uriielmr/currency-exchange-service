@@ -43,8 +43,6 @@ docker run -p 8000:8000 service .
 ```
 
 ## Tecnologias usadas
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="200" height="50" style="margin: 30px 0px 0px 40px;"><img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="110" height="50" style="margin: 30px 0px 0px 40px;"><img src="https://www.sqlite.org/images/sqlite370_banner.svg" width="200" height="50" style="margin: 30px 0px 0px 40px;"><img src="https://www.uvicorn.org/uvicorn.png" height="80" style="margin: 30px 0px 0px 40px;">
 
-<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" width="200" height="50" style="margin: 30px 0px 0px 40px;">
-<img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="110" height="50" style="margin: 30px 0px 0px 40px;">
-<img src="https://www.sqlite.org/images/sqlite370_banner.svg" width="200" height="50" style="margin: 30px 0px 0px 40px;">
-<img src="https://www.uvicorn.org/uvicorn.png" height="80" style="margin: 30px 0px 0px 40px;">
+
