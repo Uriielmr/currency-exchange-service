@@ -33,13 +33,13 @@ git clone https://github.com/Uriielmr/currency-exchange-service.git
 ## Configuración con Docker
 
 ```bash
-docker build -t service .
+docker build -t exchange-service .
 ```
 
 ### Construir la imagen Docker:
 
 ```bash
-docker run -p 8000:8000 service .
+docker run -p 8000:8000 exchange-service .
 ```
 
 ## Tecnologias usadas
