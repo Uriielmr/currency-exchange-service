@@ -19,7 +19,7 @@ Proyecto es un API simulando un intercambio de Divisas, usando swagger para docu
 - Docker
 - Docker Compose (opcional, si usas servicios adicionales como bases de datos)
 - Python 3.11 (opcional, si ejecutas localmente)
-
+- Base URL http://127.0.0.1:8000/docs#/
 
 
 ## Instalación y Configuración
