@@ -11,6 +11,6 @@ def create_app() -> FastAPI:
 # controladores y nombres de los servicios
     app.include_router(user_router, prefix="/api/v1", tags=["Users"])
     app.include_router(quote_router, prefix="/api/v1", tags=["Exchange currency"])
-    app.include_router(exchange_router, prefix="/api/v1", tags=["Exchange"])
+    app.include_router(exchange_router, prefix="/api/v1", tags=["Exchange currency per Users"])
     app.include_router(transaction_router, prefix="/api/v1", tags=["Transactions"])
     return app

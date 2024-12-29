@@ -17,7 +17,6 @@ def process_exchange(db: Session, user_id: int, currency_from: str, currency_to:
         raise Exception("Error getting exchange rate")
     
     data = response.json()
-    print (data)
 
     if currency_to not in data["conversion_rates"]:
         raise ValueError(f"Conversion rate for {currency_to} not found")

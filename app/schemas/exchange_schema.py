@@ -7,9 +7,9 @@ class ExchangeRequest(BaseModel):
     amount: float
 
     class Config:
-        schema_extra = {
+        json_schema_extra = {
             "example": {
-                "user_id": "123e4567-e89b-12d3-a456-426614174000",
+                "user_id": "1",
                 "currency_from": "USD",
                 "currency_to": "MXN",
                 "amount": 250
