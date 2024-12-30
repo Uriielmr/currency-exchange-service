@@ -41,6 +41,9 @@ docker build -t exchange-service .
 ```bash
 docker run -p 8000:8000 exchange-service
 ```
+### Acceder a la documentacion y pruebas
+
+http://127.0.0.1:8000/docs#/
 
 ### Pruebas
 ```bash
